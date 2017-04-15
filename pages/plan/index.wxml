@@ -1,0 +1,7 @@
+<view class="wrap">
+   <view class="item" wx:for="{{rows}}" wx:key="id">
+      <view class="planDate">{{item.PlanDate}}</view>
+      <view class="planInfo">[{{item.fromCityName}}]{{item.Line_Title}}</view>
+      <view class="">{{item.adultPrice}}</view>
+   </view>
+</view>

@@ -1,0 +1,34 @@
+Page({
+ data:{
+    translate:'false',
+    activedfalse:'active',
+    activedtrue:'',
+    navInfo:{
+        navList:[
+            {text:'未读',icon:''},
+            {text:'已读',icon:''}
+        ]
+    }
+ },
+ bindNavChange:function(e){
+     this.setData({
+         translate:e.target.dataset.text
+     })
+     if(e.target.dataset.text==='false'){
+        this.setData({
+            activedfalse:'active',
+            activedtrue:'',
+        })
+     }else{
+        this.setData({
+            activedfalse:'',
+            activedtrue:'active',
+        })
+     }
+ },
+ onReady:function(){
+    wx.setNavigationBarTitle({
+        title: '公告信息'
+    })
+  }
+})

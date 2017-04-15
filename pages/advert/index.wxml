@@ -1,0 +1,27 @@
+<view class="warp {{show}}">
+<view class="sidebar">
+<image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+</view>
+<view class="main main-{{show}}">
+    <view class="header clearfix">
+      <view class="list" bindtouchstart="bindShowSidebar">
+         <image src="../img/list.png"></image>
+      </view>
+     
+      <view class="search">
+          <view class="icon">
+          <image src="../img/search-active.png"></image>
+          </view>
+          <input placeholder="{{searchEmptyText}}" bindinput="bindSearch" confirm-type="搜索"/>
+       </view>
+    </view>
+    <view class="imageList">
+      <block wx:for="{{ImageList}}" wx:key="id">
+        <navigator class="item" url="./details/index?id={{item.id}}">
+           <image src="{{item.pictureUrl}}?imageMogr2/thumbnail/!230x350r/gravity/center/crop/230x350"></image>
+        </navigator>
+      </block>
+    </view>
+</view>
+<view  bindtouchstart="bindShowSidebar" class="mask mask-{{show}}"></view>
+</view>

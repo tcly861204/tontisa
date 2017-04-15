@@ -1,0 +1,6 @@
+<view class="control" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd" >
+<block wx:for="{{imgList}}" wx:key="id">
+<view bindtransitionend="transitionend" style="background:url({{item.pictureUrl}}) no-repeat center center; background-size:cover;" class="item {{item.clsName}}">
+</view>
+</block>
+</view>

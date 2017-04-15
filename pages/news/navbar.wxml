@@ -1,0 +1,6 @@
+<template name="navbottom">
+    <view class="nav-bottom">
+        <view>已读</view>
+        <view>未读</view>
+    </view>
+</template>

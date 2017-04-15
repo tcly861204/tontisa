@@ -1,0 +1,48 @@
+{
+    "pages": [
+       
+        "pages/home/index",
+        "pages/advert/index",
+         "pages/news/index",
+        "pages/advert/details/index",
+        "pages/share/index",
+        "pages/plan/index",
+        "pages/index/index",  
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#26a2ff",
+        "navigationBarTitleText": "小强ERP",
+        "navigationBarTextStyle": "write"
+    },
+    "tabBar": {
+        "borderStyle": "white",
+        "list": [{
+            "pagePath": "pages/home/index",
+            "text": "首页",
+            "selectedColor": "#26a2ff",
+            "iconPath": "pages/img/home-tab.png",
+            "selectedIconPath": "pages/img/home-tab-active.png"
+        }, {
+            "pagePath": "pages/home/index",
+            "text": "团期",
+            "selectedColor": "#26a2ff",
+            "iconPath": "pages/img/plan-tab.png",
+            "selectedIconPath": "pages/img/plan-tab-active.png"
+        }, {
+            "pagePath": "pages/home/index",
+            "text": "订单",
+            "selectedColor": "#26a2ff",
+            "iconPath": "pages/img/order-tab.png",
+            "selectedIconPath": "pages/img/order-tab-active.png"
+        }, {
+            "pagePath": "pages/home/index",
+            "text": "我的",
+            "selectedColor": "#26a2ff",
+            "iconPath": "pages/img/mine-tab.png",
+            "selectedIconPath": "pages/img/mine-tab-active.png"
+        }]
+    },
+    "debug": false
+}

@@ -1,0 +1,62 @@
+<view class="header">
+   <view class="userinfo">
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <view class="info">
+         <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      </view>
+    </view>
+</view>
+<view class="main">
+<view class="title">常用功能</view>
+<view class="main-warp">
+    <view class="item bdr bdb">
+      <navigator class="block" url="../plan/index">
+        <image src="../img/plan-grid.png"></image>
+        <text>团期计划</text>
+      </navigator>
+    </view>
+    <view class="item bdr bdb">
+    <navigator class="block" url="../home/index">
+      <image src="../img/order-grid.png"></image>
+      <text>订单管理</text>
+      </navigator>
+    </view>
+    <view class="item bdb">
+    <navigator class="block" url="../home/index">
+       <image src="../img/contact-grid.png"></image>
+       <text>通行录</text>
+       </navigator>
+    </view>
+    <view class="item bdr bdb">
+    <navigator class="block" url="../home/index">
+      <image src="../img/rankings-grid.png"></image>
+      <text>销售排行榜</text>
+      </navigator>
+    </view>
+    <view class="item bdr bdb">
+    <navigator class="block" url="../home/index">
+      <image src="../img/plan-grid-old.png"></image>
+      <text>我要收款</text>
+      </navigator>
+    </view>
+    <view class="item bdb">
+    <navigator class="block" url="../home/index">
+      <image src="../img/plan-grid-old.png"></image>
+      <text>客户管理</text>
+      </navigator>
+    </view>
+    <view class="item bdr">
+    <navigator class="block" url="../news/index">
+      <image src="../img/announce-grid.png"></image>
+      <text>公共消息</text>
+      </navigator>
+    </view>
+     <view class="item bdr">
+    <navigator class="block" url="../advert/index">
+      <image src="../img/plan-grid-old.png"></image>
+      <text>同业广告</text>
+      </navigator>
+    </view>
+    <view class="item"></view>
+</view>
+</view>

@@ -1,0 +1,7 @@
+.item{
+    display: flex;
+    font-size:24rpx;
+}
+.item .planDate{
+    width:60rpx;
+}

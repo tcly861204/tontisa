@@ -1,0 +1,212 @@
+<view class="warp">
+<view class="main {{translate}}">
+   <view class="mainItem noread">
+
+      <view class="item">
+        <view class="title">测试标题</view>
+        <view class="userInfo clearfix">
+           <text class="username">吴天赐</text>
+           <text class="addtime">2017-04-21</text>
+        </view>
+      </view>
+      <view class="item">
+        <view class="title">测试标题</view>
+        <view class="userInfo clearfix">
+           <text class="username">吴天赐</text>
+           <text class="addtime">2017-04-21</text>
+        </view>
+      </view>
+      <view class="item">
+        <view class="title">测试标题</view>
+        <view class="userInfo clearfix">
+           <text class="username">吴天赐</text>
+           <text class="addtime">2017-04-21</text>
+        </view>
+      </view>
+      <view class="item">
+        <view class="title">测试标题</view>
+        <view class="userInfo clearfix">
+           <text class="username">吴天赐</text>
+           <text class="addtime">2017-04-21</text>
+        </view>
+      </view>
+      <view class="item">
+        <view class="title">测试标题</view>
+        <view class="userInfo clearfix">
+           <text class="username">吴天赐</text>
+           <text class="addtime">2017-04-21</text>
+        </view>
+      </view>
+
+      <view class="item">
+        <view class="title">测试标题</view>
+        <view class="userInfo clearfix">
+           <text class="username">吴天赐</text>
+           <text class="addtime">2017-04-21</text>
+        </view>
+      </view>
+
+      <view class="item">
+        <view class="title">测试标题</view>
+        <view class="userInfo clearfix">
+           <text class="username">吴天赐</text>
+           <text class="addtime">2017-04-21</text>
+        </view>
+      </view>
+
+      <view class="item">
+        <view class="title">测试标题</view>
+        <view class="userInfo clearfix">
+           <text class="username">吴天赐</text>
+           <text class="addtime">2017-04-21</text>
+        </view>
+      </view>
+
+      <view class="item">
+        <view class="title">测试标题</view>
+        <view class="userInfo clearfix">
+           <text class="username">吴天赐</text>
+           <text class="addtime">2017-04-21</text>
+        </view>
+      </view>
+
+
+      <view class="item">
+        <view class="title">测试标题</view>
+        <view class="userInfo clearfix">
+           <text class="username">吴天赐</text>
+           <text class="addtime">2017-04-21</text>
+        </view>
+      </view>
+
+      <view class="item">
+        <view class="title">测试标题</view>
+        <view class="userInfo clearfix">
+           <text class="username">吴天赐</text>
+           <text class="addtime">2017-04-21</text>
+        </view>
+      </view>
+
+      <view class="item">
+        <view class="title">测试标题</view>
+        <view class="userInfo clearfix">
+           <text class="username">吴天赐</text>
+           <text class="addtime">2017-04-21</text>
+        </view>
+      </view>
+
+
+
+
+   </view>
+   <view class="mainItem read">
+
+
+<view class="item">
+        <view class="title">测试标题</view>
+        <view class="userInfo clearfix">
+           <text class="username">吴天赐</text>
+           <text class="addtime">2017-04-21</text>
+        </view>
+      </view>
+      <view class="item">
+        <view class="title">测试标题</view>
+        <view class="userInfo clearfix">
+           <text class="username">吴天赐</text>
+           <text class="addtime">2017-04-21</text>
+        </view>
+      </view>
+      <view class="item">
+        <view class="title">测试标题</view>
+        <view class="userInfo clearfix">
+           <text class="username">吴天赐</text>
+           <text class="addtime">2017-04-21</text>
+        </view>
+      </view>
+      <view class="item">
+        <view class="title">测试标题</view>
+        <view class="userInfo clearfix">
+           <text class="username">吴天赐</text>
+           <text class="addtime">2017-04-21</text>
+        </view>
+      </view>
+      <view class="item">
+        <view class="title">测试标题</view>
+        <view class="userInfo clearfix">
+           <text class="username">吴天赐</text>
+           <text class="addtime">2017-04-21</text>
+        </view>
+      </view>
+
+      <view class="item">
+        <view class="title">测试标题</view>
+        <view class="userInfo clearfix">
+           <text class="username">吴天赐</text>
+           <text class="addtime">2017-04-21</text>
+        </view>
+      </view>
+
+      <view class="item">
+        <view class="title">测试标题</view>
+        <view class="userInfo clearfix">
+           <text class="username">吴天赐</text>
+           <text class="addtime">2017-04-21</text>
+        </view>
+      </view>
+
+      <view class="item">
+        <view class="title">测试标题</view>
+        <view class="userInfo clearfix">
+           <text class="username">吴天赐</text>
+           <text class="addtime">2017-04-21</text>
+        </view>
+      </view>
+
+      <view class="item">
+        <view class="title">测试标题</view>
+        <view class="userInfo clearfix">
+           <text class="username">吴天赐</text>
+           <text class="addtime">2017-04-21</text>
+        </view>
+      </view>
+
+
+      <view class="item">
+        <view class="title">测试标题</view>
+        <view class="userInfo clearfix">
+           <text class="username">吴天赐</text>
+           <text class="addtime">2017-04-21</text>
+        </view>
+      </view>
+
+      <view class="item">
+        <view class="title">测试标题</view>
+        <view class="userInfo clearfix">
+           <text class="username">吴天赐</text>
+           <text class="addtime">2017-04-21</text>
+        </view>
+      </view>
+
+      <view class="item">
+        <view class="title">测试标题</view>
+        <view class="userInfo clearfix">
+           <text class="username">吴天赐</text>
+           <text class="addtime">2017-04-21</text>
+        </view>
+      </view>
+
+
+
+
+
+   </view>
+</view>
+<view class="navBar">
+    <view class="navItem {{activedfalse}}" data-text="false" bindtap="bindNavChange">
+       未读
+    </view>
+    <view class="navItem {{activedtrue}}" data-text="true" bindtap="bindNavChange">
+        已读
+    </view>
+</view>
+</view>

@@ -1,0 +1,8 @@
+<template name="navbottm">
+    <view class="nav-bottom">
+       <!--<text>{{a}}</text>-->
+      <block wx:for="{{navInfo}}">
+        <view></view>
+        </block>
+    </view>
+</template>

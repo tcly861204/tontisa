@@ -1,0 +1,83 @@
+page{
+    padding-top: 20rpx;
+    height: auto;
+}
+.header {
+    width: 750rpx;
+    height: 168rpx;
+    background: #fff;
+    margin: 0 auto 30rpx;
+    box-sizing: border-box;
+    padding: 24rpx; 
+}
+.header .userinfo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.header .userinfo-avatar{
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 60rpx;
+    display: block;
+    margin-right: 10rpx;
+}
+.header .info{
+    flex: 1;
+}
+
+.main{
+    width:750rpx;
+    height:auto;
+}
+.bdr{
+    border-right: 1px solid #e1e1e1;
+}
+.bdt{
+    border-top: 1px solid #e1e1e1;
+}
+.bdl{
+    border-left: 1px solid #e1e1e1;
+}
+.bdb{
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.main .title{
+    font-size:24rpx;
+    margin:0 0 10rpx 20rpx;
+    height:30rpx;
+    line-height:30rpx;
+    text-indent: 10rpx;
+    color:#999;
+}
+.main .main-warp{
+   display:flex;
+   flex-wrap:wrap;
+   background: #fff;
+}
+.main .main-warp .item {
+    width: 250rpx;
+    height: 192rpx;
+    text-align:center;
+    font-size:24rpx;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:center;
+}
+.main .main-warp .item .block{
+    width: 250rpx;
+    height: 192rpx;
+    padding: 45rpx 0 0 0;
+}
+.main .main-warp .item image{
+    width:60rpx;
+    height:60rpx;
+    display:block;
+    margin:0 auto 10rpx;
+}
+.main .main-warp .item text{
+    text-align:center;
+    font-size:24rpx;
+}

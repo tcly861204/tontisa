@@ -1,0 +1,17 @@
+.header {
+    width: 750rpx;
+    height: 168rpx;
+    background: #fff;
+    margin: 20rpx auto;
+}
+
+.main {
+    width: 750rpx;
+    height: auto;
+    display: flex;
+}
+
+.main .item {
+    width: 250rpx;
+    height: 250rpx;
+}
